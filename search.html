@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="LeftSideNav">
+
+    </div>
+     <div class="container">
+        <div class="row mb-5 p-5">
+            <div class="col-md-6">
+              <div>
+                <div class="mb-3">
+                    <input type="text" class="form-control inpSearch" id="exampleFormControlInput1" placeholder="Search By Name" onkeyup="searchName(this.value)" >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                  <div class="mb-3">
+                      <input type="text" class="form-control inpSearch" id="exampleFormControlInput" placeholder="Search By Firt Letter" onkeyup="searchLetter(this.value)" >
+                  </div>
+                </div>
+              </div>
+
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 gy-4 mt-5" id="ROW">
+            
+        </div>
+
+       
+     </div>
+
+    <script src="js/jquery-3.6.3.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/search.js" ></script>
+</body>
+
+</html>
